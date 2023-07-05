@@ -130,6 +130,8 @@ public class NoticeDao2 {
 		conn = DriverManager.getConnection(url, user, pass);
 		
 	
+		
+		
 		sql="update notices set title=?"
 				+","
 				+" content=? "
