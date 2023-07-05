@@ -116,6 +116,7 @@ public class NoticeDao2 {
 	}
 	
 	
+	
 	public void update2(String seq,String title,String content) throws Exception {
 		
 		String driver ="oracle.jdbc.driver.OracleDriver";
